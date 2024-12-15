@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التواصل</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('5393178652948164417.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            min-height: 100vh;
+        }
+        nav {
+            background-color: #0d47a1;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            padding: 8px 12px;
+        }
+        nav a:hover {
+            background-color: #1565c0;
+            border-radius: 5px;
+        }
+        .faq-section {
+            margin-top: 100px;
+            width: 90%;
+            max-width: 600px;
+            background-color: rgba(249, 249, 249, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .faq-section h2 {
+            color: #0d47a1;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .faq {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .faq h3 {
+            font-size: 1rem;
+            color: #0d47a1;
+            margin-bottom: 10px;
+        }
+        .faq p {
+            font-size: 0.9rem;
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 20px;
+            max-width: 600px;
+            background-color: rgba(249, 249, 249, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+        }
+        .contact-info h1 {
+            color: #0d47a1;
+            margin-bottom: 15px;
+        }
+        .address {
+            margin: 20px auto 20px;
+            text-align: center;
+            font-size: 1rem;
+            color: #333;
+            background-color: rgba(241, 241, 241, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: fit-content;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: right;
+        }
+        ul li {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #0d47a1;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        textarea {
+            resize: none;
+        }
+        button {
+            background-color: #0d47a1;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            display: block;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">اختيار الأقسام</a>
+        <a href="about.html">حول الكلية</a>
+        <a href="contact.html">التواصل</a>
+    </nav>
+
+    <div class="faq-section">
+        <h2>الأسئلة الشائعة</h2>
+        <div class="faq">
+            <h3>ما الوقت الذي يتواجد به موظفي التسجيل؟</h3>
+            <p>من الساعة 9 صباحًا إلى 10 مساءً.</p>
+        </div>
+        <div class="faq">
+            <h3>ما هي المستمسكات المطلوبة؟</h3>
+            <p>البطاقة الوطنية 3 نسخ وصور، بطاقة سكن 3 نسخ، وتأييد الدرجات 3 نسخ.</p>
+        </div>
+        <div class="faq">
+            <h3>كيف يمكنني الانضمام إلى الكروب؟</h3>
+            <p>مرجعك هو القسم الذي تم قبولك فيه.</p>
+        </div>
+        <div class="faq">
+            <h3>متى يبدأ دوام المرحلة الأولى؟</h3>
+            <p>يبدأ الدوام بعد غلق التقديم بـ 4 أيام.</p>
+        </div>
+        <div class="faq">
+            <h3>كيف يمكنني الحصول على هوية الطالب؟</h3>
+            <p>يتم تسليمها من قبل القسم الذي قبلت به.</p>
+        </div>
+        <!-- Adding the address section under the FAQ -->
+        <div class="faq">
+            <h3>العنوان:</h3>
+            <p>بغداد، الدورة، شارع المصافي</p>
+        </div>
+        <!-- Adding the inquiry message -->
+        <div class="faq">
+            <h3>عند أي استفسار آخر:</h3>
+            <p>يرجى ترك رسالة وسنرد عليك بأقرب وقت.</p>
+        </div>
+    </div>
+
+    <div class="contact-info">
+        <h1>أرسل لنا رسالة</h1>
+        <div class="address">
+            <p>يمكنك التواصل معنا عبر إرسال رسالة:</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" placeholder="أدخل اسمك">
+            </div>
+            <div class="form-group">
+                <label for="phone">رقم الهاتف:</label>
+                <input type="tel" id="phone" placeholder="أدخل رقم هاتفك">
+            </div>
+            <div class="form-group">
+                <label for="message">الرسالة:</label>
+                <textarea id="message" rows="4" placeholder="أدخل رسالتك"></textarea>
+            </div>
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+</body>
+</html>

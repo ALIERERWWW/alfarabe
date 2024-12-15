@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حول الكلية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('5393178652948164417.jpg') no-repeat center center fixed;
+            background-size: 50%;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #0d47a1;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            padding: 8px 15px;
+        }
+        .content {
+            margin-top: 80px;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #0d47a1;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column; /* عرض الصور عموديًا */
+            align-items: center; /* محاذاة الصور في المنتصف */
+            gap: 15px; /* تقليل المسافة بين الصور */
+            margin-bottom: 30px;
+        }
+        .gallery img {
+            width: 60%; /* تقليل عرض الصور لتناسب الحجم الأصغر */
+            max-width: 400px; /* تحديد أقصى عرض للصور */
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .video-container {
+            margin-bottom: 30px;
+        }
+        .video-container video {
+            width: 80%; /* تقليل عرض الفيديو */
+            max-width: 500px; /* تحديد أقصى عرض للفيديو */
+            height: auto;
+        }
+        .video-container h2 {
+            color: #0d47a1;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">اختيار الأقسام</a>
+        <a href="about.html">حول الكلية</a>
+        <a href="contact.html">التواصل</a>
+    </nav>
+
+    <div class="content">
+        <h1>حول الكلية</h1>
+
+        <!-- Gallery of local images -->
+        <div class="gallery">
+            <img src="5393178652948164443.jpg" alt="صورة 1">
+            <img src="IMG_0324.jpeg" alt="صورة 2">
+            <img src="IMG_0325.jpeg" alt="صورة 3">
+            <img src="IMG_0326.jpeg" alt="صورة 4">
+        </div>
+
+        <!-- Video section -->
+        <div class="video-container">
+            <video controls>
+                <source src="copy_98791BA9-E0A0-414B-A96D-0F3486E07347.mov" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </div>
+
+        <!-- Another local video -->
+        <div class="video-container">
+            <video controls>
+                <source src="copy_2EF34512-957D-4639-9700-1F3DFC427119.mov" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </div>
+
+        <!-- New videos titled العمل الميداني للكلية -->
+        <div class="video-container">
+            <h2>العمل الميداني  للجامعه </h2>
+            <video controls>
+                <source src="Instagram 4.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </div>
+
+        <div class="video-container">
+            <h2>العمل الميداني للجامعه </h2>
+            <video controls>
+                <source src="Instagram 5.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
